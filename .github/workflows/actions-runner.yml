@@ -1,0 +1,13 @@
+name: Test Runner Local
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  test-runner:
+    runs-on: self-hosted
+
+    steps:
+      - name: Runner funcionando
+        run: echo "El runner local está ejecutando el workflow correctamente"
